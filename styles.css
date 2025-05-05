@@ -1,0 +1,132 @@
+:root {
+    --header-color: #000000; /* fallback */
+    --box-color: #ffffff;
+    --text-color: #aaaaaa;
+    --background-color: #ffffff;
+    --item-color: #aaaaaa;
+    --hover-color: #aaaaaa;
+  }
+
+
+
+
+/* Base styles (mobile-first approach) */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-color);
+    color: var(--text-color);
+    padding: 15px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+main {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    /* background: url('assets/backgr.png') no-repeat center center/cover; */
+    background-color: var(--background-color);
+    min-height: 100vh;
+    color: var(--text-color);
+    border-radius: 0px;
+}
+
+section {
+    background: var(--box-color); /* Increased opacity to make text more readable */
+    padding: 17px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition for expanding/collapsing */
+    overflow: hidden; /* Hide content initially */
+    height: auto;
+}
+
+section.expanded {
+    max-height: 1000px; /* Expands when clicked */
+}
+
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer; /* Makes it clickable */
+    display: flex;
+    justify-content: space-between; /* Add space between text and arrow */
+    align-items: center;
+}
+
+.arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease; /* Smooth arrow rotation */
+}
+
+/* Rotate arrow when section is expanded 
+section.expanded h2 .arrow {
+    transform: rotate(180deg); 
+}*/
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Initially hidden */
+}
+
+.menu-list.expanded {
+    display: block; /* Show when expanded */
+}
+
+.menu-list li {
+    background: var(--item-color);
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    font-size: 0.9rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.23s forwards;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect: slight lift + glow */
+.menu-list li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: var(--hover-color);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

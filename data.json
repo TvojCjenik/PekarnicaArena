@@ -1,0 +1,14 @@
+{
+  "title": "Pekarnica Arena",
+  "favicon": "assets/favicon.ico",
+  "logo": "assets/arena.png",
+  "headerText": "Pekarnica Arena",
+  "colors": {
+    "headerColor": "#1e1e21",
+    "backgroundColor": "#54555c",
+    "boxColor": "#26272e",
+    "itemColor":"#383b41",
+    "hoverColor": "#4d4f57",
+    "textColor": "#ffffff"
+  }
+}
