@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Bijeli kruh",
+        "category": "Kruh 🥖",
+        "price": 1.50
+    },
+    {
+        "name": "Kukuruzni kruh",
+        "category": "Kruh 🥖",
+        "price": 1.80
+    },
+    {
+        "name": "Integralni kruh",
+        "category": "Kruh 🥖",
+        "price": 2.00
+    },
+    {
+        "name": "Kruh sa sjemenkama",
+        "category": "Kruh 🥖",
+        "price": 2.20
+    },
+    {
+        "name": "Domaći raženi kruh",
+        "category": "Kruh 🥖",
+        "price": 2.30
+    },
+    {
+        "name": "Kifla sa sirom",
+        "category": "Peciva 🥐",
+        "price": 1.20
+    },
+    {
+        "name": "Kroasan s čokoladom",
+        "category": "Peciva 🥐",
+        "price": 1.50
+    },
+    {
+        "name": "Burek (meso)",
+        "category": "Peciva 🥐",
+        "price": 2.50
+    },
+    {
+        "name": "Burek (sir)",
+        "category": "Peciva 🥐",
+        "price": 2.40
+    },
+    {
+        "name": "Pecivo sa šunkom i sirom",
+        "category": "Peciva 🥐",
+        "price": 2.20
+    },
+    {
+        "name": "Lisnato sa špinatom i sirom",
+        "category": "Peciva 🥐",
+        "price": 2.30
+    },
+    {
+        "name": "Pizza štrudla",
+        "category": "Peciva 🥐",
+        "price": 2.70
+    },
+    {
+        "name": "Slanci",
+        "category": "Peciva 🥐",
+        "price": 0.90
+    },
+    {
+        "name": "Mini baguette",
+        "category": "Peciva 🥐",
+        "price": 1.00
+    },
+    {
+        "name": "Štrudla s jabukama",
+        "category": "Slastice 🧁",
+        "price": 1.80
+    },
+    {
+        "name": "Štrudla s višnjama",
+        "category": "Slastice 🧁",
+        "price": 1.80
+    },
+    {
+        "name": "Kremšnita",
+        "category": "Slastice 🧁",
+        "price": 2.20
+    },
+    {
+        "name": "Čokoladni muffin",
+        "category": "Slastice 🧁",
+        "price": 1.70
+    },
+    {
+        "name": "Vanilin kiflice",
+        "category": "Slastice 🧁",
+        "price": 1.00
+    },
+    {
+        "name": "Mak kocka",
+        "category": "Slastice 🧁",
+        "price": 2.00
+    },
+    {
+        "name": "Cedevita",
+        "category": "Ostalo 🛒",
+        "price": 1.50
+    },
+    {
+        "name": "Sok od naranče",
+        "category": "Ostalo 🛒",
+        "price": 1.70
+    },
+    {
+        "name": "Sok od jabuke",
+        "category": "Ostalo 🛒",
+        "price": 1.70
+    },
+    {
+        "name": "Voda 0.5L",
+        "category": "Ostalo 🛒",
+        "price": 1.00
+    },
+    {
+        "name": "Gazirana voda 0.5L",
+        "category": "Ostalo 🛒",
+        "price": 1.00
+    },
+    {
+        "name": "Jogurt 1L",
+        "category": "Ostalo 🛒",
+        "price": 1.00
+    }
+]
